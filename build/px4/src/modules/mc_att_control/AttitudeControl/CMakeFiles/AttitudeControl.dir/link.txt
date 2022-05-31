@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/umang/drone_ws/devel/.private/px4/lib/libAttitudeControl.a  CMakeFiles/AttitudeControl.dir/AttitudeControl.cpp.o
+/usr/bin/ranlib /home/umang/drone_ws/devel/.private/px4/lib/libAttitudeControl.a

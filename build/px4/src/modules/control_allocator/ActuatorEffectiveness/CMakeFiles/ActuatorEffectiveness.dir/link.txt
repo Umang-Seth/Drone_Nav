@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/umang/drone_ws/devel/.private/px4/lib/libActuatorEffectiveness.a  CMakeFiles/ActuatorEffectiveness.dir/ActuatorEffectivenessMultirotor.cpp.o CMakeFiles/ActuatorEffectiveness.dir/ActuatorEffectivenessStandardVTOL.cpp.o CMakeFiles/ActuatorEffectiveness.dir/ActuatorEffectivenessTiltrotorVTOL.cpp.o
+/usr/bin/ranlib /home/umang/drone_ws/devel/.private/px4/lib/libActuatorEffectiveness.a

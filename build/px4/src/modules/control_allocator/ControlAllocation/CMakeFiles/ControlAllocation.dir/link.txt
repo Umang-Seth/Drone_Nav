@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/umang/drone_ws/devel/.private/px4/lib/libControlAllocation.a  CMakeFiles/ControlAllocation.dir/ControlAllocation.cpp.o CMakeFiles/ControlAllocation.dir/ControlAllocationPseudoInverse.cpp.o CMakeFiles/ControlAllocation.dir/ControlAllocationSequentialDesaturation.cpp.o
+/usr/bin/ranlib /home/umang/drone_ws/devel/.private/px4/lib/libControlAllocation.a

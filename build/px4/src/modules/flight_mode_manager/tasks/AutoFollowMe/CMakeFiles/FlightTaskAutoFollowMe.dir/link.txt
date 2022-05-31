@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskAutoFollowMe.a  CMakeFiles/FlightTaskAutoFollowMe.dir/FlightTaskAutoFollowMe.cpp.o
+/usr/bin/ranlib /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskAutoFollowMe.a

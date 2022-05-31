@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/umang/drone_ws/devel/.private/px4/lib/libfw_autotune_attitude_control.a  CMakeFiles/fw_autotune_attitude_control.dir/fw_autotune_attitude_control.cpp.o
+/usr/bin/ranlib /home/umang/drone_ws/devel/.private/px4/lib/libfw_autotune_attitude_control.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/umang/drone_ws/devel/.private/px4/lib/libmodules__control_allocator.a  CMakeFiles/modules__control_allocator.dir/ControlAllocator.cpp.o
+/usr/bin/ranlib /home/umang/drone_ws/devel/.private/px4/lib/libmodules__control_allocator.a

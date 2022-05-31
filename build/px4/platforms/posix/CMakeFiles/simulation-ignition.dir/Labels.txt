@@ -1,0 +1,13 @@
+# Target labels
+ simulation-ignition
+# Source files and their labels
+/home/umang/drone_ws/build/px4/platforms/posix/CMakeFiles/simulation-ignition
+/home/umang/drone_ws/build/px4/platforms/posix/CMakeFiles/simulation-ignition.rule
+/home/umang/drone_ws/build/px4/platforms/posix/CMakeFiles/simulation-ignition-complete.rule
+/home/umang/drone_ws/build/px4/external/Stamp/simulation-ignition/simulation-ignition-install.rule
+/home/umang/drone_ws/build/px4/external/Stamp/simulation-ignition/simulation-ignition-mkdir.rule
+/home/umang/drone_ws/build/px4/external/Stamp/simulation-ignition/simulation-ignition-download.rule
+/home/umang/drone_ws/build/px4/external/Stamp/simulation-ignition/simulation-ignition-update.rule
+/home/umang/drone_ws/build/px4/external/Stamp/simulation-ignition/simulation-ignition-patch.rule
+/home/umang/drone_ws/build/px4/external/Stamp/simulation-ignition/simulation-ignition-configure.rule
+/home/umang/drone_ws/build/px4/external/Stamp/simulation-ignition/simulation-ignition-build.rule

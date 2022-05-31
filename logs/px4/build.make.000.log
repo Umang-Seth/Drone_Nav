@@ -1,0 +1,1215 @@
+[35m[1mScanning dependencies of target output_functions_header[0m
+[35m[1mScanning dependencies of target parameters_xml[0m
+[35m[1mScanning dependencies of target ver_gen[0m
+[35m[1mScanning dependencies of target logs_symlink[0m
+[35m[1mScanning dependencies of target flighttasks_generated[0m
+[35m[1mScanning dependencies of target mixer_gen_6dof[0m
+[35m[1mScanning dependencies of target events_header[0m
+[35m[1mScanning dependencies of target drivers_board[0m
+[35m[1mScanning dependencies of target mixer_gen[0m
+[35m[1mScanning dependencies of target git_mavlink_v2[0m
+[35m[1mScanning dependencies of target git_gps_devices[0m
+[35m[1mScanning dependencies of target uorb_headers[0m
+[  0%] [34m[1mGenerating git version header[0m
+[  0%] [34m[1mGenerating output_functions.hpp[0m
+[  0%] [34m[1mgit submodule src/modules/mavlink/mavlink[0m
+[  0%] [34m[1mGenerating mixer_multirotor_6dof.generated.h[0m
+[  0%] [34m[1mGenerating serial_params.c[0m
+[  0%] [34m[1mGenerating Flight Tasks[0m
+[  0%] [34m[1mGenerating uORB topic headers[0m
+[  0%] [34m[1mGenerating combined event json file[0m
+[  0%] [34m[1mgit submodule src/drivers/gps/devices[0m
+[  1%] [34m[1mGenerating mixer_multirotor.generated.h[0m
+[  1%] [34m[1mGenerating ../../logs[0m
+[  1%] Built target logs_symlink
+[  1%] [34m[1mGenerating mixer_multirotor_normalized.generated.h[0m
+[  1%] Built target git_mavlink_v2
+[35m[1mScanning dependencies of target mavlink_c_generate[0m
+[  1%] Built target git_gps_devices
+[  2%] [34m[1mGenerating Mavlink development: src/modules/mavlink/mavlink/message_definitions/v1.0/development.xml[0m
+[  2%] Built target flighttasks_generated
+[  2%] Built target output_functions_header
+[  3%] [34m[1mGenerating px4 event header file[0m
+[  3%] [32mBuilding CXX object boards/px4/sitl/src/CMakeFiles/drivers_board.dir/i2c.cpp.o[0m
+[  3%] [32mBuilding CXX object boards/px4/sitl/src/CMakeFiles/drivers_board.dir/board_shutdown.cpp.o[0m
+[  3%] [32mBuilding CXX object boards/px4/sitl/src/CMakeFiles/drivers_board.dir/spi.cpp.o[0m
+[  4%] [32mBuilding C object boards/px4/sitl/src/CMakeFiles/drivers_board.dir/sitl_led.c.o[0m
+[  4%] Built target events_header
+[  4%] Built target mixer_gen_6dof
+[  4%] Built target mixer_gen
+[  4%] [34m[1mGenerating parameters.xml[0m
+[  4%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers_board.a[0m
+[  4%] Built target drivers_board
+Validating /home/umang/drone_ws/src/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/development.xml
+Parsing /home/umang/drone_ws/src/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/development.xml
+Validating /home/umang/drone_ws/src/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/umang/drone_ws/src/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/umang/drone_ws/src/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/umang/drone_ws/src/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/common.xml
+Validating /home/umang/drone_ws/src/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/umang/drone_ws/src/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Found 222 MAVLink message types in 4 XML files
+Generating C implementation in directory /home/umang/drone_ws/build/px4/mavlink/development
+Generating C implementation in directory /home/umang/drone_ws/build/px4/mavlink/standard
+Generating C implementation in directory /home/umang/drone_ws/build/px4/mavlink/common
+Generating C implementation in directory /home/umang/drone_ws/build/px4/mavlink/minimal
+Copying fixed headers for protocol 2.0 to /home/umang/drone_ws/build/px4/mavlink
+[  4%] Built target mavlink_c_generate
+[  4%] Built target uorb_headers
+[35m[1mScanning dependencies of target rc[0m
+[35m[1mScanning dependencies of target tinybson[0m
+[35m[1mScanning dependencies of target MixerBase[0m
+[35m[1mScanning dependencies of target output_limit[0m
+[35m[1mScanning dependencies of target events_json[0m
+[35m[1mScanning dependencies of target perf[0m
+[35m[1mScanning dependencies of target geo[0m
+[  4%] [34m[1mGenerating uORB topic sources[0m
+[35m[1mScanning dependencies of target wind_estimator[0m
+[35m[1mScanning dependencies of target work_queue[0m
+[  4%] [32mBuilding CXX object src/lib/perf/CMakeFiles/perf.dir/perf_counter.cpp.o[0m
+[  4%] [32mBuilding CXX object src/lib/output_limit/CMakeFiles/output_limit.dir/output_limit.cpp.o[0m
+[  4%] [34m[1mGenerating px4 event json file from source[0m
+[  4%] [32mBuilding CXX object src/lib/parameters/tinybson/CMakeFiles/tinybson.dir/tinybson.cpp.o[0m
+[  4%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/dq_addlast.c.o[0m
+[  4%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/liboutput_limit.a[0m
+[  4%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/dq_rem.c.o[0m
+[  4%] Built target output_limit
+[35m[1mScanning dependencies of target world_magnetic_model[0m
+[  4%] [32mBuilding CXX object src/lib/mixer/MixerBase/CMakeFiles/MixerBase.dir/Mixer.cpp.o[0m
+[  4%] [32mBuilding CXX object src/lib/world_magnetic_model/CMakeFiles/world_magnetic_model.dir/geo_mag_declination.cpp.o[0m
+[  4%] [32mBuilding CXX object src/lib/wind_estimator/CMakeFiles/wind_estimator.dir/WindEstimator.cpp.o[0m
+[  4%] [32mBuilding CXX object src/lib/geo/CMakeFiles/geo.dir/geo.cpp.o[0m
+[  5%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/dq_remfirst.c.o[0m
+[  6%] [32mBuilding CXX object src/lib/rc/CMakeFiles/rc.dir/crsf.cpp.o[0m
+[  7%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libtinybson.a[0m
+[  7%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/hrt_queue.c.o[0m
+[  7%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libperf.a[0m
+[  7%] Built target tinybson
+[  7%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/hrt_thread.c.o[0m
+[  7%] Built target perf
+[  7%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/hrt_work_cancel.c.o[0m
+[  7%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/queue.c.o[0m
+[  7%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/sq_addafter.c.o[0m
+[  7%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libMixerBase.a[0m
+[  7%] [32mBuilding CXX object src/lib/rc/CMakeFiles/rc.dir/ghst.cpp.o[0m
+[  7%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/sq_addlast.c.o[0m
+[  7%] [32mBuilding CXX object src/lib/rc/CMakeFiles/rc.dir/st24.cpp.o[0m
+[  7%] Built target MixerBase
+[  7%] [32mBuilding CXX object src/lib/rc/CMakeFiles/rc.dir/sumd.cpp.o[0m
+[35m[1mScanning dependencies of target HelicopterMixer[0m
+[  7%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libworld_magnetic_model.a[0m
+[  7%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libgeo.a[0m
+[  7%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/sq_remfirst.c.o[0m
+[  7%] [32mBuilding CXX object src/lib/mixer/HelicopterMixer/CMakeFiles/HelicopterMixer.dir/HelicopterMixer.cpp.o[0m
+[  7%] Built target world_magnetic_model
+[  7%] Built target geo
+[  7%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/work_cancel.c.o[0m
+[35m[1mScanning dependencies of target NullMixer[0m
+[35m[1mScanning dependencies of target MultirotorMixer[0m
+[  7%] [32mBuilding CXX object src/lib/mixer/NullMixer/CMakeFiles/NullMixer.dir/NullMixer.cpp.o[0m
+[35m[1mScanning dependencies of target SimpleMixer[0m
+[  7%] [32mBuilding CXX object src/lib/mixer/MultirotorMixer/CMakeFiles/MultirotorMixer.dir/MultirotorMixer.cpp.o[0m
+[  8%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/work_lock.c.o[0m
+[  8%] [32mBuilding CXX object src/lib/mixer/SimpleMixer/CMakeFiles/SimpleMixer.dir/SimpleMixer.cpp.o[0m
+[  8%] [32mBuilding CXX object src/lib/rc/CMakeFiles/rc.dir/sbus.cpp.o[0m
+[  8%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/work_queue.c.o[0m
+[  8%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libwind_estimator.a[0m
+[  8%] [32mBuilding CXX object src/lib/rc/CMakeFiles/rc.dir/dsm.cpp.o[0m
+[  8%] Built target wind_estimator
+[  8%] [32mBuilding CXX object src/lib/rc/CMakeFiles/rc.dir/common_rc.cpp.o[0m
+[  8%] [32mBuilding C object platforms/common/work_queue/CMakeFiles/work_queue.dir/work_thread.c.o[0m
+[  8%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libHelicopterMixer.a[0m
+[  8%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libNullMixer.a[0m
+[  8%] Built target HelicopterMixer
+[  8%] Built target NullMixer
+[  8%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libSimpleMixer.a[0m
+[  8%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libMultirotorMixer.a[0m
+[  8%] Built target SimpleMixer
+[  8%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/librc.a[0m
+[  9%] Built target MultirotorMixer
+[35m[1mScanning dependencies of target mixer[0m
+[  9%] [32mBuilding CXX object src/lib/mixer/CMakeFiles/mixer.dir/MixerGroup.cpp.o[0m
+[  9%] [32m[1mLinking C static library /home/umang/drone_ws/devel/.private/px4/lib/libwork_queue.a[0m
+[  9%] Built target rc
+[  9%] [32mBuilding CXX object src/lib/mixer/CMakeFiles/mixer.dir/load_mixer_file.cpp.o[0m
+[  9%] Built target work_queue
+[35m[1mScanning dependencies of target uorb_msgs[0m
+[  9%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmixer.a[0m
+[  9%] Built target mixer
+[  9%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/actuator_controls.cpp.o[0m
+[  9%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/actuator_outputs.cpp.o[0m
+[  9%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/adc_report.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/actuator_controls_status.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/uORBTopics.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/actuator_armed.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/actuator_servos.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/action_request.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/actuator_motors.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/airspeed.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/airspeed_validated.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/airspeed_wind.cpp.o[0m
+[ 10%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/autotune_attitude_control_status.cpp.o[0m
+[ 11%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/battery_status.cpp.o[0m
+[ 11%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/camera_capture.cpp.o[0m
+[ 11%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/camera_status.cpp.o[0m
+[ 11%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/camera_trigger.cpp.o[0m
+[ 11%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/cellular_status.cpp.o[0m
+[ 11%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/collision_constraints.cpp.o[0m
+[ 11%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/collision_report.cpp.o[0m
+[ 11%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/commander_state.cpp.o[0m
+[ 11%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/control_allocator_status.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/cpuload.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/debug_array.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/debug_key_value.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/debug_value.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/debug_vect.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/differential_pressure.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/ekf2_timestamps.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/distance_sensor.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/ekf_gps_drift.cpp.o[0m
+[ 13%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/esc_report.cpp.o[0m
+[ 14%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/esc_status.cpp.o[0m
+[ 14%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/estimator_baro_bias.cpp.o[0m
+[ 14%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/estimator_event_flags.cpp.o[0m
+[ 14%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/estimator_innovations.cpp.o[0m
+[ 14%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/estimator_optical_flow_vel.cpp.o[0m
+[ 14%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/estimator_selector_status.cpp.o[0m
+[ 14%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/estimator_sensor_bias.cpp.o[0m
+[ 14%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/estimator_states.cpp.o[0m
+[ 14%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/estimator_status.cpp.o[0m
+[ 15%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/estimator_status_flags.cpp.o[0m
+[ 15%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/event.cpp.o[0m
+[ 15%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/failure_detector_status.cpp.o[0m
+[ 15%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/follow_target.cpp.o[0m
+[ 15%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/generator_status.cpp.o[0m
+[ 15%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/geofence_result.cpp.o[0m
+[ 15%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/gimbal_device_attitude_status.cpp.o[0m
+[ 15%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/gimbal_device_information.cpp.o[0m
+[ 15%] Built target parameters_xml
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/gimbal_manager_information.cpp.o[0m
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/gimbal_device_set_attitude.cpp.o[0m
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/gimbal_manager_set_attitude.cpp.o[0m
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/gimbal_manager_set_manual_control.cpp.o[0m
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/gimbal_manager_status.cpp.o[0m
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/gps_dump.cpp.o[0m
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/gps_inject_data.cpp.o[0m
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/heater_status.cpp.o[0m
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/home_position.cpp.o[0m
+[ 16%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/hover_thrust_estimate.cpp.o[0m
+[ 17%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/input_rc.cpp.o[0m
+[ 17%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/internal_combustion_engine_status.cpp.o[0m
+[ 17%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/iridiumsbd_status.cpp.o[0m
+[ 17%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/irlock_report.cpp.o[0m
+[ 17%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/landing_gear.cpp.o[0m
+[ 17%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/landing_target_innovations.cpp.o[0m
+[ 17%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/landing_target_pose.cpp.o[0m
+[ 17%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/led_control.cpp.o[0m
+[ 17%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/log_message.cpp.o[0m
+[ 18%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/mag_worker_data.cpp.o[0m
+[ 18%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/logger_status.cpp.o[0m
+[ 18%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/magnetometer_bias_estimate.cpp.o[0m
+[ 18%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/manual_control_setpoint.cpp.o[0m
+[ 18%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/manual_control_switches.cpp.o[0m
+[ 18%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/mavlink_log.cpp.o[0m
+[ 18%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/mission.cpp.o[0m
+[ 18%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/mount_orientation.cpp.o[0m
+[ 18%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/mission_result.cpp.o[0m
+[ 19%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/navigator_mission_item.cpp.o[0m
+[ 19%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/obstacle_distance.cpp.o[0m
+[ 19%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/offboard_control_mode.cpp.o[0m
+[ 19%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/onboard_computer_status.cpp.o[0m
+[ 19%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/optical_flow.cpp.o[0m
+[ 19%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/orb_test.cpp.o[0m
+[ 19%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/orb_test_large.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/orb_test_medium.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/ping.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/parameter_update.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/orbit_status.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/position_controller_status.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/position_controller_landing_status.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/position_setpoint.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/position_setpoint_triplet.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/power_button_state.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/power_monitor.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/pwm_input.cpp.o[0m
+[ 20%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/px4io_status.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/radio_status.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/rate_ctrl_status.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/rc_channels.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/rpm.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/rc_parameter_map.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/rtl_flight_time.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/safety.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/satellite_info.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_correction.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_baro.cpp.o[0m
+[ 21%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_accel.cpp.o[0m
+[ 22%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_accel_fifo.cpp.o[0m
+[ 22%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_combined.cpp.o[0m
+[ 22%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_gps.cpp.o[0m
+[ 22%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_gyro_fft.cpp.o[0m
+[ 22%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_gyro_fifo.cpp.o[0m
+[ 22%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_gyro.cpp.o[0m
+[ 22%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_mag.cpp.o[0m
+[ 22%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_selection.cpp.o[0m
+[ 22%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensors_status_imu.cpp.o[0m
+[ 23%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/sensor_preflight_mag.cpp.o[0m
+[ 23%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/takeoff_status.cpp.o[0m
+[ 23%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/system_power.cpp.o[0m
+[ 23%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/tecs_status.cpp.o[0m
+[ 23%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/task_stack_info.cpp.o[0m
+[ 23%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/telemetry_status.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/timesync.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/test_motor.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/timesync_status.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/trajectory_bezier.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/tune_control.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/transponder_report.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/trajectory_waypoint.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/uavcan_parameter_request.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/uavcan_parameter_value.cpp.o[0m
+[ 25%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/ulog_stream.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/ulog_stream_ack.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_acceleration.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_actuator_setpoint.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_angular_acceleration.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_air_data.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_angular_acceleration_setpoint.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_angular_velocity.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_attitude.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_attitude_setpoint.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_command_ack.cpp.o[0m
+[ 26%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_constraints.cpp.o[0m
+[ 27%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_control_mode.cpp.o[0m
+[ 27%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_command.cpp.o[0m
+[ 27%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_global_position.cpp.o[0m
+[ 27%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_imu_status.cpp.o[0m
+[ 27%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_imu.cpp.o[0m
+[ 27%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_land_detected.cpp.o[0m
+[ 27%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_gps_position.cpp.o[0m
+[ 28%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_local_position_setpoint.cpp.o[0m
+[ 28%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_local_position.cpp.o[0m
+[ 28%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_magnetometer.cpp.o[0m
+[ 28%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_odometry.cpp.o[0m
+[ 28%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_rates_setpoint.cpp.o[0m
+[ 28%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_status.cpp.o[0m
+[ 28%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_roi.cpp.o[0m
+[ 28%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_status_flags.cpp.o[0m
+[ 28%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_thrust_setpoint.cpp.o[0m
+[ 29%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_torque_setpoint.cpp.o[0m
+[ 29%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_trajectory_bezier.cpp.o[0m
+[ 29%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vehicle_trajectory_waypoint.cpp.o[0m
+[ 29%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/vtol_vehicle_status.cpp.o[0m
+[ 29%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/wheel_encoders.cpp.o[0m
+[ 29%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/wind.cpp.o[0m
+[ 29%] [32mBuilding CXX object msg/CMakeFiles/uorb_msgs.dir/topics_sources/yaw_estimator_status.cpp.o[0m
+[ 29%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libuorb_msgs.a[0m
+[ 29%] Built target uorb_msgs
+[ 29%] [34m[1mGenerating px4_parameters.hpp[0m
+[35m[1mScanning dependencies of target parameters[0m
+[ 30%] [32mBuilding CXX object src/lib/parameters/CMakeFiles/parameters.dir/parameters.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/lib/parameters/CMakeFiles/parameters.dir/param_translation.cpp.o[0m
+[ 30%] [34m[1mGenerating combined event json file[0m
+[ 30%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libparameters.a[0m
+[ 30%] Built target parameters
+[35m[1mScanning dependencies of target px4_work_queue[0m
+[ 30%] [32mBuilding CXX object platforms/common/px4_work_queue/CMakeFiles/px4_work_queue.dir/WorkQueue.cpp.o[0m
+[ 30%] [32mBuilding CXX object platforms/common/px4_work_queue/CMakeFiles/px4_work_queue.dir/ScheduledWorkItem.cpp.o[0m
+[ 30%] [32mBuilding CXX object platforms/common/px4_work_queue/CMakeFiles/px4_work_queue.dir/WorkItem.cpp.o[0m
+[ 30%] [32mBuilding CXX object platforms/common/px4_work_queue/CMakeFiles/px4_work_queue.dir/WorkItemSingleShot.cpp.o[0m
+[ 30%] [32mBuilding CXX object platforms/common/px4_work_queue/CMakeFiles/px4_work_queue.dir/WorkQueueManager.cpp.o[0m
+[ 30%] Built target events_json
+[ 30%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libpx4_work_queue.a[0m
+[ 30%] Built target px4_work_queue
+[35m[1mScanning dependencies of target uORB[0m
+[ 30%] [32mBuilding CXX object platforms/common/uORB/CMakeFiles/uORB.dir/Subscription.cpp.o[0m
+[ 30%] [32mBuilding CXX object platforms/common/uORB/CMakeFiles/uORB.dir/uORBDeviceNode.cpp.o[0m
+[ 30%] [32mBuilding CXX object platforms/common/uORB/CMakeFiles/uORB.dir/uORBDeviceMaster.cpp.o[0m
+[ 30%] [32mBuilding CXX object platforms/common/uORB/CMakeFiles/uORB.dir/uORBManager.cpp.o[0m
+[ 30%] [32mBuilding CXX object platforms/common/uORB/CMakeFiles/uORB.dir/uORB.cpp.o[0m
+[ 31%] [32mBuilding CXX object platforms/common/uORB/CMakeFiles/uORB.dir/uORBUtils.cpp.o[0m
+[ 31%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libuORB.a[0m
+[ 31%] Built target ver_gen
+[ 31%] Built target uORB
+[35m[1mScanning dependencies of target component_general_json[0m
+[35m[1mScanning dependencies of target version[0m
+[35m[1mScanning dependencies of target px4_platform[0m
+[ 31%] [34m[1mGenerating component_general.json and checksums.h[0m
+[ 31%] [32mBuilding C object src/lib/version/CMakeFiles/version.dir/version.c.o[0m
+[ 31%] Built target component_general_json
+[35m[1mScanning dependencies of target romfs_gen_files_target[0m
+[ 31%] [34m[1mGenerating ../romfs_files.tar[0m
+[ 32%] [32mBuilding C object platforms/common/CMakeFiles/px4_platform.dir/board_identity.c.o[0m
+[ 32%] [32mBuilding CXX object platforms/common/CMakeFiles/px4_platform.dir/external_reset_lockout.cpp.o[0m
+[ 32%] [32mBuilding CXX object platforms/common/CMakeFiles/px4_platform.dir/i2c.cpp.o[0m
+[ 32%] [32mBuilding CXX object platforms/common/CMakeFiles/px4_platform.dir/events.cpp.o[0m
+[ 32%] [32mBuilding CXX object platforms/common/CMakeFiles/px4_platform.dir/i2c_spi_buses.cpp.o[0m
+[ 32%] [32mBuilding CXX object platforms/common/CMakeFiles/px4_platform.dir/module.cpp.o[0m
+[ 32%] [32mBuilding C object platforms/common/CMakeFiles/px4_platform.dir/px4_getopt.c.o[0m
+[ 32%] [32mBuilding CXX object platforms/common/CMakeFiles/px4_platform.dir/px4_cli.cpp.o[0m
+[ 33%] [32mBuilding CXX object platforms/common/CMakeFiles/px4_platform.dir/spi.cpp.o[0m
+[ 33%] [32mBuilding CXX object platforms/common/CMakeFiles/px4_platform.dir/shutdown.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libversion.a[0m
+[ 33%] [32mBuilding CXX object platforms/common/CMakeFiles/px4_platform.dir/px4_log.cpp.o[0m
+[ 33%] [34m[1mGenerating romfs_extract.stamp[0m
+[ 33%] Built target version
+[ 34%] [34m[1mROMFS: copying, generating airframes[0m
+[ 34%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libpx4_platform.a[0m
+[ 34%] Built target px4_platform
+[35m[1mScanning dependencies of target lockstep_scheduler[0m
+[ 34%] [32mBuilding CXX object platforms/posix/src/px4/common/lockstep_scheduler/CMakeFiles/lockstep_scheduler.dir/src/lockstep_scheduler.cpp.o[0m
+[ 34%] [32mBuilding CXX object platforms/posix/src/px4/common/lockstep_scheduler/CMakeFiles/lockstep_scheduler.dir/src/lockstep_components.cpp.o[0m
+[ 34%] [34m[1mROMFS: copying extras[0m
+[ 34%] Built target romfs_gen_files_target
+[ 34%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/liblockstep_scheduler.a[0m
+[ 34%] Built target lockstep_scheduler
+[35m[1mScanning dependencies of target px4_daemon[0m
+[ 34%] [32mBuilding CXX object platforms/posix/src/px4/common/px4_daemon/CMakeFiles/px4_daemon.dir/pxh.cpp.o[0m
+[ 34%] [32mBuilding CXX object platforms/posix/src/px4/common/px4_daemon/CMakeFiles/px4_daemon.dir/server.cpp.o[0m
+[ 34%] [32mBuilding CXX object platforms/posix/src/px4/common/px4_daemon/CMakeFiles/px4_daemon.dir/history.cpp.o[0m
+[ 34%] [32mBuilding CXX object platforms/posix/src/px4/common/px4_daemon/CMakeFiles/px4_daemon.dir/sock_protocol.cpp.o[0m
+[ 34%] [32mBuilding CXX object platforms/posix/src/px4/common/px4_daemon/CMakeFiles/px4_daemon.dir/client.cpp.o[0m
+[ 34%] [32mBuilding CXX object platforms/posix/src/px4/common/px4_daemon/CMakeFiles/px4_daemon.dir/server_io.cpp.o[0m
+[ 35%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libpx4_daemon.a[0m
+[ 35%] Built target px4_daemon
+[35m[1mScanning dependencies of target px4_layer[0m
+[ 35%] [32mBuilding CXX object platforms/posix/src/px4/common/CMakeFiles/px4_layer.dir/print_load.cpp.o[0m
+[ 35%] [32mBuilding CXX object platforms/posix/src/px4/common/CMakeFiles/px4_layer.dir/px4_init.cpp.o[0m
+[ 35%] [32mBuilding C object platforms/posix/src/px4/common/CMakeFiles/px4_layer.dir/lib_crc32.c.o[0m
+[ 35%] [32mBuilding CXX object platforms/posix/src/px4/common/CMakeFiles/px4_layer.dir/px4_sem.cpp.o[0m
+[ 35%] [32mBuilding CXX object platforms/posix/src/px4/common/CMakeFiles/px4_layer.dir/px4_posix_impl.cpp.o[0m
+[ 35%] [32mBuilding CXX object platforms/posix/src/px4/common/CMakeFiles/px4_layer.dir/drv_hrt.cpp.o[0m
+[ 35%] [32mBuilding CXX object platforms/posix/src/px4/common/CMakeFiles/px4_layer.dir/tasks.cpp.o[0m
+[ 35%] [32mBuilding CXX object platforms/posix/src/px4/common/CMakeFiles/px4_layer.dir/cpuload.cpp.o[0m
+[ 35%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libpx4_layer.a[0m
+[ 35%] Built target px4_layer
+[35m[1mScanning dependencies of target cdev[0m
+[ 35%] [32mBuilding CXX object src/lib/cdev/CMakeFiles/cdev.dir/CDev.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/lib/cdev/CMakeFiles/cdev.dir/posix/cdev_platform.cpp.o[0m
+[ 35%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libcdev.a[0m
+[ 35%] Built target cdev
+[35m[1mScanning dependencies of target circuit_breaker[0m
+[35m[1mScanning dependencies of target airspeed[0m
+[35m[1mScanning dependencies of target conversion[0m
+[35m[1mScanning dependencies of target systemlib[0m
+[35m[1mScanning dependencies of target drivers_barometer[0m
+[35m[1mScanning dependencies of target CollisionPrevention[0m
+[35m[1mScanning dependencies of target battery[0m
+[35m[1mScanning dependencies of target bezier[0m
+[35m[1mScanning dependencies of target landing_slope[0m
+[35m[1mScanning dependencies of target l1[0m
+[35m[1mScanning dependencies of target controllib[0m
+[35m[1mScanning dependencies of target hysteresis[0m
+[ 35%] [32mBuilding CXX object src/lib/airspeed/CMakeFiles/airspeed.dir/airspeed.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/lib/circuit_breaker/CMakeFiles/circuit_breaker.dir/circuit_breaker.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/lib/conversion/CMakeFiles/conversion.dir/rotation.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/lib/hysteresis/CMakeFiles/hysteresis.dir/hysteresis.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/lib/l1/CMakeFiles/l1.dir/ECL_L1_Pos_Controller.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/lib/landing_slope/CMakeFiles/landing_slope.dir/Landingslope.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/lib/drivers/barometer/CMakeFiles/drivers_barometer.dir/PX4Barometer.cpp.o[0m
+[ 38%] [32mBuilding C object src/lib/systemlib/CMakeFiles/systemlib.dir/conversions.c.o[0m
+[ 38%] [32mBuilding CXX object src/lib/bezier/CMakeFiles/bezier.dir/BezierQuad.cpp.o[0m
+[ 38%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libhysteresis.a[0m
+[ 38%] [32mBuilding CXX object src/lib/collision_prevention/CMakeFiles/CollisionPrevention.dir/CollisionPrevention.cpp.o[0m
+[ 39%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libcircuit_breaker.a[0m
+[ 39%] [32mBuilding C object src/lib/systemlib/CMakeFiles/systemlib.dir/crc.c.o[0m
+[ 40%] [32mBuilding CXX object src/lib/battery/CMakeFiles/battery.dir/battery.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/block/Block.cpp.o[0m
+[ 40%] Built target hysteresis
+[ 40%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libairspeed.a[0m
+[ 40%] [32mBuilding CXX object src/lib/systemlib/CMakeFiles/systemlib.dir/mavlink_log.cpp.o[0m
+[ 40%] Built target circuit_breaker
+[35m[1mScanning dependencies of target mathlib[0m
+[ 40%] [32mBuilding CXX object src/lib/mathlib/CMakeFiles/mathlib.dir/math/test/test.cpp.o[0m
+[35m[1mScanning dependencies of target mixer_module[0m
+[ 40%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libconversion.a[0m
+[ 40%] Built target airspeed
+[ 40%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/liblanding_slope.a[0m
+[ 40%] [32mBuilding CXX object src/lib/bezier/CMakeFiles/bezier.dir/BezierN.cpp.o[0m
+[ 40%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers_barometer.a[0m
+[35m[1mScanning dependencies of target motion_planning[0m
+[ 40%] [32mBuilding CXX object src/lib/mixer_module/CMakeFiles/mixer_module.dir/mixer_module.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/lib/motion_planning/CMakeFiles/motion_planning.dir/VelocitySmoothing.cpp.o[0m
+[ 40%] Built target conversion
+[ 40%] Built target drivers_barometer
+[ 40%] Built target landing_slope
+[ 40%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemlib.a[0m
+[ 40%] [32mBuilding CXX object src/lib/mixer_module/CMakeFiles/mixer_module.dir/functions.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/lib/motion_planning/CMakeFiles/motion_planning.dir/PositionSmoothing.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/lib/motion_planning/CMakeFiles/motion_planning.dir/ManualVelocitySmoothingXY.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/block/BlockParam.cpp.o[0m
+[ 41%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libl1.a[0m
+[ 41%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmathlib.a[0m
+[ 41%] Built target systemlib
+[ 41%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/BlockDerivative.cpp.o[0m
+[ 41%] Built target l1
+[ 41%] Built target mathlib
+[ 41%] [32mBuilding CXX object src/lib/motion_planning/CMakeFiles/motion_planning.dir/ManualVelocitySmoothingZ.cpp.o[0m
+[35m[1mScanning dependencies of target pid[0m
+[35m[1mScanning dependencies of target lib__rc__rc_tests[0m
+[ 41%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libbattery.a[0m
+[ 41%] [32mBuilding CXX object src/lib/pid/CMakeFiles/pid.dir/pid.cpp.o[0m
+[35m[1mScanning dependencies of target sensor_calibration[0m
+[35m[1mScanning dependencies of target SlewRate[0m
+[ 41%] [32mBuilding CXX object src/lib/sensor_calibration/CMakeFiles/sensor_calibration.dir/Accelerometer.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/lib/rc/rc_tests/CMakeFiles/lib__rc__rc_tests.dir/RCTest.cpp.o[0m
+[ 41%] Built target battery
+[ 41%] [32mBuilding CXX object src/lib/slew_rate/CMakeFiles/SlewRate.dir/dummy.cpp.o[0m
+[35m[1mScanning dependencies of target SystemIdentification[0m
+[ 41%] [32mBuilding CXX object src/lib/system_identification/CMakeFiles/SystemIdentification.dir/system_identification.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/BlockHighPass.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/BlockIntegral.cpp.o[0m
+[ 41%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libSlewRate.a[0m
+[ 41%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libpid.a[0m
+[ 41%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libbezier.a[0m
+[ 41%] Built target SlewRate
+[ 41%] Built target pid
+[ 41%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/liblib__rc__rc_tests.a[0m
+[ 41%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmotion_planning.a[0m
+[ 41%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/BlockIntegralTrap.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/lib/sensor_calibration/CMakeFiles/sensor_calibration.dir/Gyroscope.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/BlockLimit.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/lib/sensor_calibration/CMakeFiles/sensor_calibration.dir/Magnetometer.cpp.o[0m
+[ 41%] Built target bezier
+[ 41%] Built target motion_planning
+[ 42%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/BlockLimitSym.cpp.o[0m
+[35m[1mScanning dependencies of target tunes[0m
+[ 42%] Built target lib__rc__rc_tests
+[35m[1mScanning dependencies of target tecs[0m
+[35m[1mScanning dependencies of target WeatherVane[0m
+[ 42%] [32mBuilding CXX object src/lib/tecs/CMakeFiles/tecs.dir/TECS.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/lib/tunes/CMakeFiles/tunes.dir/default_tunes.cpp.o[0m
+[ 42%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libSystemIdentification.a[0m
+[ 43%] [32mBuilding CXX object src/lib/weather_vane/CMakeFiles/WeatherVane.dir/WeatherVane.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/BlockLowPass.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/lib/tunes/CMakeFiles/tunes.dir/tunes.cpp.o[0m
+[ 44%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libCollisionPrevention.a[0m
+[ 44%] [32mBuilding CXX object src/lib/sensor_calibration/CMakeFiles/sensor_calibration.dir/Utilities.cpp.o[0m
+[ 44%] Built target SystemIdentification
+[ 44%] [32mBuilding CXX object src/lib/controllib/CMakeFiles/controllib.dir/BlockLowPass2.cpp.o[0m
+[ 44%] Built target CollisionPrevention
+[35m[1mScanning dependencies of target modules__uORB__uORB_tests[0m
+[35m[1mScanning dependencies of target arch_tone_alarm[0m
+[35m[1mScanning dependencies of target lib__work_queue__test__wqueue_test[0m
+[ 44%] [32mBuilding CXX object platforms/posix/src/px4/generic/generic/tone_alarm/CMakeFiles/arch_tone_alarm.dir/ToneAlarmInterface.cpp.o[0m
+[ 44%] [32mBuilding CXX object platforms/common/uORB/uORB_tests/CMakeFiles/modules__uORB__uORB_tests.dir/uORB_tests_main.cpp.o[0m
+[ 44%] [32mBuilding CXX object platforms/common/px4_work_queue/test/CMakeFiles/lib__work_queue__test__wqueue_test.dir/wqueue_main.cpp.o[0m
+[35m[1mScanning dependencies of target drivers__camera_trigger[0m
+[ 44%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmixer_module.a[0m
+[ 44%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libtunes.a[0m
+[ 44%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libWeatherVane.a[0m
+[35m[1mScanning dependencies of target drivers__gps[0m
+[ 44%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libarch_tone_alarm.a[0m
+[ 44%] [32mBuilding CXX object src/drivers/camera_trigger/CMakeFiles/drivers__camera_trigger.dir/camera_trigger.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/drivers/gps/CMakeFiles/drivers__gps.dir/gps.cpp.o[0m
+[ 44%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libtecs.a[0m
+[ 44%] Built target tunes
+[ 44%] Built target mixer_module
+[ 44%] Built target WeatherVane
+[ 44%] Built target arch_tone_alarm
+[35m[1mScanning dependencies of target examples__rpm_simulator[0m
+[ 44%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libcontrollib.a[0m
+[ 44%] [32mBuilding CXX object platforms/common/uORB/uORB_tests/CMakeFiles/modules__uORB__uORB_tests.dir/uORBTest_UnitTest.cpp.o[0m
+[35m[1mScanning dependencies of target modules__airspeed_selector[0m
+[35m[1mScanning dependencies of target modules__airship_att_control[0m
+[ 44%] [32mBuilding CXX object src/drivers/rpm/rpm_simulator/CMakeFiles/examples__rpm_simulator.dir/rpm_simulator.cpp.o[0m
+[ 44%] Built target tecs
+[ 44%] [32mBuilding CXX object platforms/common/px4_work_queue/test/CMakeFiles/lib__work_queue__test__wqueue_test.dir/wqueue_scheduled_test.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/modules/airspeed_selector/CMakeFiles/modules__airspeed_selector.dir/airspeed_selector_main.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/modules/airship_att_control/CMakeFiles/modules__airship_att_control.dir/airship_att_control_main.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/drivers/gps/CMakeFiles/drivers__gps.dir/devices/src/gps_helper.cpp.o[0m
+[ 44%] Built target controllib
+[ 44%] [32mBuilding CXX object src/modules/airspeed_selector/CMakeFiles/modules__airspeed_selector.dir/AirspeedValidator.cpp.o[0m
+[35m[1mScanning dependencies of target modules__attitude_estimator_q[0m
+[ 44%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libexamples__rpm_simulator.a[0m
+[ 45%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsensor_calibration.a[0m
+[ 45%] [32mBuilding CXX object src/modules/attitude_estimator_q/CMakeFiles/modules__attitude_estimator_q.dir/attitude_estimator_q_main.cpp.o[0m
+[35m[1mScanning dependencies of target modules__camera_feedback[0m
+[ 45%] [32mBuilding CXX object src/modules/camera_feedback/CMakeFiles/modules__camera_feedback.dir/CameraFeedback.cpp.o[0m
+[ 45%] Built target examples__rpm_simulator
+[ 45%] [32mBuilding CXX object src/drivers/gps/CMakeFiles/drivers__gps.dir/devices/src/mtk.cpp.o[0m
+[ 45%] Built target sensor_calibration
+[ 45%] [32mBuilding CXX object src/drivers/gps/CMakeFiles/drivers__gps.dir/devices/src/ashtech.cpp.o[0m
+[35m[1mScanning dependencies of target failure_detector[0m
+[ 45%] [32mBuilding CXX object platforms/common/px4_work_queue/test/CMakeFiles/lib__work_queue__test__wqueue_test.dir/wqueue_start.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/modules/commander/failure_detector/CMakeFiles/failure_detector.dir/FailureDetector.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/drivers/camera_trigger/CMakeFiles/drivers__camera_trigger.dir/interfaces/src/camera_interface.cpp.o[0m
+[ 47%] [32mBuilding CXX object platforms/common/px4_work_queue/test/CMakeFiles/lib__work_queue__test__wqueue_test.dir/wqueue_test.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/drivers/camera_trigger/CMakeFiles/drivers__camera_trigger.dir/interfaces/src/pwm.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/drivers/gps/CMakeFiles/drivers__gps.dir/devices/src/ubx.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/drivers/camera_trigger/CMakeFiles/drivers__camera_trigger.dir/interfaces/src/seagull_map2.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/drivers/gps/CMakeFiles/drivers__gps.dir/devices/src/rtcm.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/drivers/camera_trigger/CMakeFiles/drivers__camera_trigger.dir/interfaces/src/gpio.cpp.o[0m
+[ 47%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/liblib__work_queue__test__wqueue_test.a[0m
+[ 47%] [32mBuilding CXX object src/drivers/gps/CMakeFiles/drivers__gps.dir/devices/src/emlid_reach.cpp.o[0m
+[ 48%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__uORB__uORB_tests.a[0m
+[ 48%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__airship_att_control.a[0m
+[ 50%] [32mBuilding CXX object src/drivers/gps/CMakeFiles/drivers__gps.dir/devices/src/femtomes.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers__camera_trigger.a[0m
+[ 50%] Built target lib__work_queue__test__wqueue_test
+[ 50%] Built target modules__uORB__uORB_tests
+[ 50%] [32mBuilding CXX object src/drivers/gps/CMakeFiles/drivers__gps.dir/devices/src/nmea.cpp.o[0m
+[ 50%] Built target modules__airship_att_control
+[ 50%] Built target drivers__camera_trigger
+[35m[1mScanning dependencies of target ArmAuthorization[0m
+[35m[1mScanning dependencies of target modules__commander__commander_tests[0m
+[35m[1mScanning dependencies of target HealthFlags[0m
+[35m[1mScanning dependencies of target ControlAllocation[0m
+[ 50%] [32mBuilding CXX object src/modules/commander/Arming/ArmAuthorization/CMakeFiles/ArmAuthorization.dir/ArmAuthorization.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/commander/Arming/HealthFlags/CMakeFiles/HealthFlags.dir/HealthFlags.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/commander/commander_tests/CMakeFiles/modules__commander__commander_tests.dir/commander_tests.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/control_allocator/ControlAllocation/CMakeFiles/ControlAllocation.dir/ControlAllocation.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/control_allocator/ControlAllocation/CMakeFiles/ControlAllocation.dir/ControlAllocationPseudoInverse.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__camera_feedback.a[0m
+[ 50%] [32mBuilding CXX object src/modules/commander/commander_tests/CMakeFiles/modules__commander__commander_tests.dir/state_machine_helper_test.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libHealthFlags.a[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__airspeed_selector.a[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libArmAuthorization.a[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libfailure_detector.a[0m
+[ 50%] Built target modules__camera_feedback
+[ 50%] Built target HealthFlags
+[ 50%] Built target modules__airspeed_selector
+[35m[1mScanning dependencies of target modules__dataman[0m
+[ 50%] Built target ArmAuthorization
+[35m[1mScanning dependencies of target EKF2Utility[0m
+[ 50%] [32mBuilding CXX object src/modules/control_allocator/ControlAllocation/CMakeFiles/ControlAllocation.dir/ControlAllocationSequentialDesaturation.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/dataman/CMakeFiles/modules__dataman.dir/dataman.cpp.o[0m
+[35m[1mScanning dependencies of target modules__events[0m
+[35m[1mScanning dependencies of target FlightTask[0m
+[ 50%] Built target failure_detector
+[ 50%] [32mBuilding CXX object src/modules/events/CMakeFiles/modules__events.dir/rc_loss_alarm.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/commander/commander_tests/CMakeFiles/modules__commander__commander_tests.dir/__/state_machine_helper.cpp.o[0m
+[35m[1mScanning dependencies of target modules__fw_att_control[0m
+[ 50%] [32mBuilding CXX object src/modules/ekf2/Utility/CMakeFiles/EKF2Utility.dir/PreFlightChecker.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/FlightTask/CMakeFiles/FlightTask.dir/FlightTask.cpp.o[0m
+[35m[1mScanning dependencies of target fw_autotune_attitude_control[0m
+[ 50%] [32mBuilding CXX object src/modules/fw_att_control/CMakeFiles/modules__fw_att_control.dir/FixedwingAttitudeControl.cpp.o[0m
+[35m[1mScanning dependencies of target launchdetection[0m
+[ 50%] [32mBuilding CXX object src/modules/fw_pos_control_l1/launchdetection/CMakeFiles/launchdetection.dir/LaunchDetector.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/fw_autotune_attitude_control/CMakeFiles/fw_autotune_attitude_control.dir/fw_autotune_attitude_control.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers__gps.a[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libEKF2Utility.a[0m
+[ 50%] [32mBuilding CXX object src/modules/fw_att_control/CMakeFiles/modules__fw_att_control.dir/ecl_controller.cpp.o[0m
+[ 50%] Built target drivers__gps
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__dataman.a[0m
+[35m[1mScanning dependencies of target runway_takeoff[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libControlAllocation.a[0m
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__commander__commander_tests.a[0m
+[ 50%] [32mBuilding CXX object src/modules/fw_pos_control_l1/runway_takeoff/CMakeFiles/runway_takeoff.dir/RunwayTakeoff.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/fw_pos_control_l1/launchdetection/CMakeFiles/launchdetection.dir/CatapultLaunchMethod.cpp.o[0m
+[ 50%] Built target EKF2Utility
+[ 50%] Built target modules__dataman
+[ 50%] [32mBuilding CXX object src/modules/fw_att_control/CMakeFiles/modules__fw_att_control.dir/ecl_pitch_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/modules/fw_att_control/CMakeFiles/modules__fw_att_control.dir/ecl_roll_controller.cpp.o[0m
+[ 50%] Built target ControlAllocation
+[ 50%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__attitude_estimator_q.a[0m
+[ 50%] Built target modules__commander__commander_tests
+[ 50%] [32mBuilding CXX object src/modules/events/CMakeFiles/modules__events.dir/send_event.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/modules/fw_att_control/CMakeFiles/modules__fw_att_control.dir/ecl_wheel_controller.cpp.o[0m
+[35m[1mScanning dependencies of target modules__gyro_calibration[0m
+[ 51%] [32mBuilding CXX object src/modules/gyro_calibration/CMakeFiles/modules__gyro_calibration.dir/GyroCalibration.cpp.o[0m
+[ 51%] Built target modules__attitude_estimator_q
+[ 51%] [32mBuilding CXX object src/modules/events/CMakeFiles/modules__events.dir/set_leds.cpp.o[0m
+[35m[1mScanning dependencies of target modules__gyro_fft[0m
+[ 51%] [32mBuilding CXX object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/GyroFFT.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/modules/fw_att_control/CMakeFiles/modules__fw_att_control.dir/ecl_yaw_controller.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/modules/events/CMakeFiles/modules__events.dir/status_display.cpp.o[0m
+[ 51%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTask.a[0m
+[ 51%] [32mBuilding C object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/CMSIS_5/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q15.c.o[0m
+[ 51%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/liblaunchdetection.a[0m
+[ 51%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/librunway_takeoff.a[0m
+[ 51%] Built target FlightTask
+[ 51%] Built target launchdetection
+[35m[1mScanning dependencies of target modules__land_detector[0m
+[35m[1mScanning dependencies of target modules__landing_target_estimator[0m
+[ 52%] [32mBuilding C object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/CMSIS_5/CMSIS/DSP/Source/CommonTables/arm_common_tables.c.o[0m
+[ 52%] [32mBuilding CXX object src/modules/landing_target_estimator/CMakeFiles/modules__landing_target_estimator.dir/landing_target_estimator_main.cpp.o[0m
+[35m[1mScanning dependencies of target modules__load_mon[0m
+[ 53%] [32mBuilding CXX object src/modules/land_detector/CMakeFiles/modules__land_detector.dir/land_detector_main.cpp.o[0m
+[ 53%] Built target runway_takeoff
+[35m[1mScanning dependencies of target modules__local_position_estimator[0m
+[ 53%] [32mBuilding CXX object src/modules/load_mon/CMakeFiles/modules__load_mon.dir/LoadMon.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/BlockLocalPositionEstimator.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/modules/landing_target_estimator/CMakeFiles/modules__landing_target_estimator.dir/LandingTargetEstimator.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/modules/landing_target_estimator/CMakeFiles/modules__landing_target_estimator.dir/KalmanFilter.cpp.o[0m
+[ 54%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__events.a[0m
+[ 54%] Built target modules__events
+[ 54%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libfw_autotune_attitude_control.a[0m
+[35m[1mScanning dependencies of target modules__logger[0m
+[ 54%] Built target fw_autotune_attitude_control
+[ 54%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/sensors/flow.cpp.o[0m
+[35m[1mScanning dependencies of target modules__mag_bias_estimator[0m
+[ 54%] [32mBuilding CXX object src/modules/logger/CMakeFiles/modules__logger.dir/logged_topics.cpp.o[0m
+[ 54%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__load_mon.a[0m
+[ 54%] [32mBuilding CXX object src/modules/mag_bias_estimator/CMakeFiles/modules__mag_bias_estimator.dir/MagBiasEstimator.cpp.o[0m
+[ 54%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__gyro_calibration.a[0m
+[35m[1mScanning dependencies of target module__manual_control[0m
+[ 54%] Built target modules__load_mon
+[ 54%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__fw_att_control.a[0m
+[ 54%] [32mBuilding CXX object src/modules/land_detector/CMakeFiles/modules__land_detector.dir/LandDetector.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/modules/manual_control/CMakeFiles/module__manual_control.dir/ManualControl.cpp.o[0m
+[ 54%] Built target modules__gyro_calibration
+[35m[1mScanning dependencies of target modules__mavlink__mavlink_tests[0m
+[ 54%] [32mBuilding CXX object src/modules/manual_control/CMakeFiles/module__manual_control.dir/ManualControlSelector.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/modules/mavlink/mavlink_tests/CMakeFiles/modules__mavlink__mavlink_tests.dir/mavlink_tests.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/modules/logger/CMakeFiles/modules__logger.dir/logger.cpp.o[0m
+[ 54%] Built target modules__fw_att_control
+[ 54%] [32mBuilding C object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/CMSIS_5/CMSIS/DSP/Source/CommonTables/arm_const_structs.c.o[0m
+[ 54%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__landing_target_estimator.a[0m
+[35m[1mScanning dependencies of target AttitudeControl[0m
+[ 54%] [32mBuilding C object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q15.c.o[0m
+[ 54%] [32mBuilding CXX object src/modules/mc_att_control/AttitudeControl/CMakeFiles/AttitudeControl.dir/AttitudeControl.cpp.o[0m
+[ 54%] Built target modules__landing_target_estimator
+[ 54%] [32mBuilding CXX object src/modules/logger/CMakeFiles/modules__logger.dir/log_writer.cpp.o[0m
+[35m[1mScanning dependencies of target mc_autotune_attitude_control[0m
+[ 55%] [32mBuilding CXX object src/modules/logger/CMakeFiles/modules__logger.dir/log_writer_file.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/modules/mc_autotune_attitude_control/CMakeFiles/mc_autotune_attitude_control.dir/mc_autotune_attitude_control.cpp.o[0m
+[ 56%] [32mBuilding C object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/CMSIS_5/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c.o[0m
+[35m[1mScanning dependencies of target zero_order_hover_thrust_ekf[0m
+[ 56%] [32mBuilding C object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/CMSIS_5/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q15.c.o[0m
+[ 56%] [32mBuilding CXX object src/modules/mc_hover_thrust_estimator/CMakeFiles/zero_order_hover_thrust_ekf.dir/zero_order_hover_thrust_ekf.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/modules/logger/CMakeFiles/modules__logger.dir/log_writer_mavlink.cpp.o[0m
+[ 56%] [32mBuilding C object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/CMSIS_5/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c.o[0m
+[ 57%] [32mBuilding CXX object src/modules/mavlink/mavlink_tests/CMakeFiles/modules__mavlink__mavlink_tests.dir/mavlink_ftp_test.cpp.o[0m
+[ 57%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libAttitudeControl.a[0m
+[ 57%] [32mBuilding CXX object src/modules/land_detector/CMakeFiles/modules__land_detector.dir/MulticopterLandDetector.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/modules/mavlink/mavlink_tests/CMakeFiles/modules__mavlink__mavlink_tests.dir/__/mavlink_stream.cpp.o[0m
+[ 57%] Built target AttitudeControl
+[35m[1mScanning dependencies of target PositionControl[0m
+[ 58%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libzero_order_hover_thrust_ekf.a[0m
+[ 58%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__mag_bias_estimator.a[0m
+[ 58%] [32mBuilding CXX object src/modules/mc_pos_control/PositionControl/CMakeFiles/PositionControl.dir/ControlMath.cpp.o[0m
+[ 58%] Built target zero_order_hover_thrust_ekf
+[ 58%] [32mBuilding CXX object src/modules/mc_pos_control/PositionControl/CMakeFiles/PositionControl.dir/PositionControl.cpp.o[0m
+[ 58%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodule__manual_control.a[0m
+[35m[1mScanning dependencies of target Takeoff[0m
+[ 58%] [32mBuilding C object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/CMSIS_5/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c.o[0m
+[ 58%] Built target modules__mag_bias_estimator
+[ 58%] [32mBuilding CXX object src/modules/mc_pos_control/Takeoff/CMakeFiles/Takeoff.dir/Takeoff.cpp.o[0m
+[35m[1mScanning dependencies of target RateControl[0m
+[ 58%] [32mBuilding CXX object src/modules/mc_rate_control/RateControl/CMakeFiles/RateControl.dir/RateControl.cpp.o[0m
+[ 58%] Built target module__manual_control
+[ 58%] [32mBuilding C object src/modules/gyro_fft/CMakeFiles/modules__gyro_fft.dir/CMSIS_5/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c.o[0m
+[35m[1mScanning dependencies of target geofence_breach_avoidance[0m
+[ 58%] [32mBuilding CXX object src/modules/navigator/GeofenceBreachAvoidance/CMakeFiles/geofence_breach_avoidance.dir/geofence_breach_avoidance.cpp.o[0m
+[ 58%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libTakeoff.a[0m
+[ 58%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__gyro_fft.a[0m
+[ 59%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libRateControl.a[0m
+[ 59%] Built target Takeoff
+[35m[1mScanning dependencies of target modules__rc_update[0m
+[ 59%] [32mBuilding CXX object src/modules/logger/CMakeFiles/modules__logger.dir/util.cpp.o[0m
+[ 59%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libPositionControl.a[0m
+[ 59%] Built target modules__gyro_fft
+[ 59%] [32mBuilding CXX object src/modules/rc_update/CMakeFiles/modules__rc_update.dir/rc_update.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/modules/land_detector/CMakeFiles/modules__land_detector.dir/FixedwingLandDetector.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/modules/logger/CMakeFiles/modules__logger.dir/watchdog.cpp.o[0m
+[ 59%] Built target RateControl
+[ 59%] Built target PositionControl
+[ 59%] [32mBuilding CXX object src/modules/land_detector/CMakeFiles/modules__land_detector.dir/VtolLandDetector.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/modules/land_detector/CMakeFiles/modules__land_detector.dir/RoverLandDetector.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/modules/land_detector/CMakeFiles/modules__land_detector.dir/AirshipLandDetector.cpp.o[0m
+[35m[1mScanning dependencies of target modules__replay[0m
+[ 59%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/sensors/lidar.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/modules/replay/CMakeFiles/modules__replay.dir/replay_main.cpp.o[0m
+[ 59%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmc_autotune_attitude_control.a[0m
+[ 59%] [32mBuilding CXX object src/modules/replay/CMakeFiles/modules__replay.dir/Replay.cpp.o[0m
+[ 59%] Built target mc_autotune_attitude_control
+[35m[1mScanning dependencies of target modules__rover_pos_control[0m
+[ 59%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__logger.a[0m
+[ 59%] [32mBuilding CXX object src/modules/rover_pos_control/CMakeFiles/modules__rover_pos_control.dir/RoverPositionControl.cpp.o[0m
+[ 59%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libgeofence_breach_avoidance.a[0m
+[ 59%] Built target modules__logger
+[35m[1mScanning dependencies of target data_validator[0m
+[ 59%] Built target geofence_breach_avoidance
+[ 59%] [32mBuilding CXX object src/modules/mavlink/mavlink_tests/CMakeFiles/modules__mavlink__mavlink_tests.dir/__/mavlink_ftp.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/modules/sensors/data_validator/CMakeFiles/data_validator.dir/DataValidator.cpp.o[0m
+[35m[1mScanning dependencies of target vehicle_acceleration[0m
+[ 59%] [32mBuilding CXX object src/modules/replay/CMakeFiles/modules__replay.dir/ReplayEkf2.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/modules/sensors/vehicle_acceleration/CMakeFiles/vehicle_acceleration.dir/VehicleAcceleration.cpp.o[0m
+[35m[1mScanning dependencies of target vehicle_angular_velocity[0m
+[ 59%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/sensors/sonar.cpp.o[0m
+[ 59%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__land_detector.a[0m
+[ 59%] [32mBuilding CXX object src/modules/sensors/vehicle_angular_velocity/CMakeFiles/vehicle_angular_velocity.dir/VehicleAngularVelocity.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/modules/sensors/data_validator/CMakeFiles/data_validator.dir/DataValidatorGroup.cpp.o[0m
+[ 59%] Built target modules__land_detector
+[ 60%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/sensors/gps.cpp.o[0m
+[35m[1mScanning dependencies of target vehicle_air_data[0m
+[ 61%] [32mBuilding CXX object src/modules/sensors/vehicle_air_data/CMakeFiles/vehicle_air_data.dir/VehicleAirData.cpp.o[0m
+[ 61%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdata_validator.a[0m
+[ 61%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/sensors/baro.cpp.o[0m
+[ 63%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__rc_update.a[0m
+[ 63%] Built target data_validator
+[ 63%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/sensors/vision.cpp.o[0m
+[ 63%] Built target modules__rc_update
+[35m[1mScanning dependencies of target vehicle_gps_position[0m
+[35m[1mScanning dependencies of target vehicle_imu[0m
+[ 63%] [32mBuilding CXX object src/modules/sensors/vehicle_gps_position/CMakeFiles/vehicle_gps_position.dir/VehicleGPSPosition.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/modules/sensors/vehicle_imu/CMakeFiles/vehicle_imu.dir/VehicleIMU.cpp.o[0m
+[ 63%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__mavlink__mavlink_tests.a[0m
+[ 63%] Built target modules__mavlink__mavlink_tests
+[35m[1mScanning dependencies of target vehicle_magnetometer[0m
+[ 64%] [32mBuilding CXX object src/modules/sensors/vehicle_magnetometer/CMakeFiles/vehicle_magnetometer.dir/VehicleMagnetometer.cpp.o[0m
+[ 64%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libvehicle_acceleration.a[0m
+[ 64%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__rover_pos_control.a[0m
+[ 64%] Built target modules__rover_pos_control
+[35m[1mScanning dependencies of target modules__simulator__battery_simulator[0m
+[35m[1mScanning dependencies of target modules__temperature_compensation[0m
+[ 64%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libvehicle_air_data.a[0m
+[ 64%] Built target vehicle_acceleration
+[ 64%] [32mBuilding CXX object src/modules/simulator/battery_simulator/CMakeFiles/modules__simulator__battery_simulator.dir/BatterySimulator.cpp.o[0m
+[35m[1mScanning dependencies of target modules__uuv_att_control[0m
+[ 64%] Built target vehicle_air_data
+[ 64%] [32mBuilding CXX object src/modules/uuv_att_control/CMakeFiles/modules__uuv_att_control.dir/uuv_att_control.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/modules/temperature_compensation/CMakeFiles/modules__temperature_compensation.dir/TemperatureCompensationModule.cpp.o[0m
+[35m[1mScanning dependencies of target modules__uuv_pos_control[0m
+[35m[1mScanning dependencies of target drivers__vmount[0m
+[35m[1mScanning dependencies of target modules__vtol_att_control[0m
+[ 64%] [32mBuilding CXX object src/modules/uuv_pos_control/CMakeFiles/modules__uuv_pos_control.dir/uuv_pos_control.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/modules/vmount/CMakeFiles/drivers__vmount.dir/input.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/modules/vtol_att_control/CMakeFiles/modules__vtol_att_control.dir/vtol_att_control_main.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/modules/sensors/vehicle_gps_position/CMakeFiles/vehicle_gps_position.dir/gps_blending.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/modules/vmount/CMakeFiles/drivers__vmount.dir/input_mavlink.cpp.o[0m
+[ 64%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__replay.a[0m
+[ 64%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/sensors/mocap.cpp.o[0m
+[ 64%] Built target modules__replay
+[ 64%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/sensors/land.cpp.o[0m
+[ 64%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libvehicle_angular_velocity.a[0m
+[ 64%] Built target vehicle_angular_velocity
+[35m[1mScanning dependencies of target systemcmds__dyn[0m
+[ 64%] [32mBuilding CXX object src/systemcmds/dyn/CMakeFiles/systemcmds__dyn.dir/dyn.cpp.o[0m
+[ 64%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libvehicle_gps_position.a[0m
+[ 64%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__simulator__battery_simulator.a[0m
+[ 64%] Built target vehicle_gps_position
+[ 64%] Built target modules__simulator__battery_simulator
+[35m[1mScanning dependencies of target systemcmds__esc_calib[0m
+[ 64%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__dyn.a[0m
+[35m[1mScanning dependencies of target systemcmds__failure[0m
+[ 65%] [32mBuilding C object src/systemcmds/esc_calib/CMakeFiles/systemcmds__esc_calib.dir/esc_calib.c.o[0m
+[ 65%] [32mBuilding CXX object src/modules/temperature_compensation/CMakeFiles/modules__temperature_compensation.dir/TemperatureCompensation.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/systemcmds/failure/CMakeFiles/systemcmds__failure.dir/failure.cpp.o[0m
+[ 65%] Built target systemcmds__dyn
+[35m[1mScanning dependencies of target systemcmds__led_control[0m
+[ 65%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__uuv_att_control.a[0m
+[ 66%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__uuv_pos_control.a[0m
+[ 66%] [32mBuilding CXX object src/systemcmds/led_control/CMakeFiles/systemcmds__led_control.dir/led_control.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/modules/vmount/CMakeFiles/drivers__vmount.dir/input_rc.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__esc_calib.a[0m
+[ 66%] Built target modules__uuv_att_control
+[ 66%] [32mBuilding CXX object src/modules/vtol_att_control/CMakeFiles/modules__vtol_att_control.dir/tiltrotor.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/modules/vtol_att_control/CMakeFiles/modules__vtol_att_control.dir/vtol_type.cpp.o[0m
+[ 66%] Built target modules__uuv_pos_control
+[ 66%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libvehicle_magnetometer.a[0m
+[ 66%] [32mBuilding CXX object src/modules/vmount/CMakeFiles/drivers__vmount.dir/input_test.cpp.o[0m
+[ 66%] Built target systemcmds__esc_calib
+[35m[1mScanning dependencies of target systemcmds__mixer[0m
+[ 66%] Built target vehicle_magnetometer
+[35m[1mScanning dependencies of target systemcmds__motor_ramp[0m
+[ 66%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__led_control.a[0m
+[ 66%] [32mBuilding CXX object src/modules/temperature_compensation/CMakeFiles/modules__temperature_compensation.dir/temperature_calibration/accel.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/systemcmds/mixer/CMakeFiles/systemcmds__mixer.dir/mixer.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/systemcmds/motor_ramp/CMakeFiles/systemcmds__motor_ramp.dir/motor_ramp.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/modules/local_position_estimator/CMakeFiles/modules__local_position_estimator.dir/sensors/landing_target.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/modules/vmount/CMakeFiles/drivers__vmount.dir/output.cpp.o[0m
+[ 66%] Built target systemcmds__led_control
+[ 66%] [32mBuilding CXX object src/modules/vmount/CMakeFiles/drivers__vmount.dir/output_mavlink.cpp.o[0m
+[35m[1mScanning dependencies of target systemcmds__motor_test[0m
+[ 66%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__failure.a[0m
+[ 66%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libvehicle_imu.a[0m
+[35m[1mScanning dependencies of target systemcmds__param[0m
+[ 66%] [32mBuilding CXX object src/systemcmds/motor_test/CMakeFiles/systemcmds__motor_test.dir/motor_test.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/systemcmds/param/CMakeFiles/systemcmds__param.dir/param.cpp.o[0m
+[ 66%] Built target vehicle_imu
+[ 66%] Built target systemcmds__failure
+[ 67%] [32mBuilding CXX object src/modules/vmount/CMakeFiles/drivers__vmount.dir/output_rc.cpp.o[0m
+[35m[1mScanning dependencies of target systemcmds__perf[0m
+[ 67%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__mixer.a[0m
+[ 67%] [32mBuilding C object src/systemcmds/perf/CMakeFiles/systemcmds__perf.dir/perf.c.o[0m
+[ 68%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__motor_ramp.a[0m
+[ 68%] Built target systemcmds__motor_ramp
+[35m[1mScanning dependencies of target systemcmds__pwm[0m
+[ 68%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__perf.a[0m
+[ 68%] Built target systemcmds__mixer
+[ 68%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__motor_test.a[0m
+[ 68%] [32mBuilding CXX object src/systemcmds/pwm/CMakeFiles/systemcmds__pwm.dir/pwm.cpp.o[0m
+[35m[1mScanning dependencies of target systemcmds__sd_bench[0m
+[ 68%] [32mBuilding CXX object src/modules/vmount/CMakeFiles/drivers__vmount.dir/vmount.cpp.o[0m
+[ 69%] [32mBuilding C object src/systemcmds/sd_bench/CMakeFiles/systemcmds__sd_bench.dir/sd_bench.c.o[0m
+[ 69%] Built target systemcmds__motor_test
+[ 69%] Built target systemcmds__perf
+[ 69%] [32mBuilding CXX object src/modules/temperature_compensation/CMakeFiles/modules__temperature_compensation.dir/temperature_calibration/baro.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/modules/vtol_att_control/CMakeFiles/modules__vtol_att_control.dir/tailsitter.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/modules/vtol_att_control/CMakeFiles/modules__vtol_att_control.dir/standard.cpp.o[0m
+[ 69%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__sd_bench.a[0m
+[ 70%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__param.a[0m
+[ 70%] [32mBuilding CXX object src/modules/temperature_compensation/CMakeFiles/modules__temperature_compensation.dir/temperature_calibration/gyro.cpp.o[0m
+[35m[1mScanning dependencies of target systemcmds__shutdown[0m
+[ 70%] [32mBuilding CXX object src/modules/temperature_compensation/CMakeFiles/modules__temperature_compensation.dir/temperature_calibration/task.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/systemcmds/shutdown/CMakeFiles/systemcmds__shutdown.dir/shutdown.cpp.o[0m
+[ 70%] Built target systemcmds__sd_bench
+[ 70%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__pwm.a[0m
+[35m[1mScanning dependencies of target systemcmds__system_time[0m
+[35m[1mScanning dependencies of target systemcmds__tests[0m
+[ 70%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__shutdown.a[0m
+[ 70%] [32mBuilding CXX object src/systemcmds/system_time/CMakeFiles/systemcmds__system_time.dir/system_time.cpp.o[0m
+[ 70%] Built target systemcmds__param
+[ 70%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__local_position_estimator.a[0m
+[ 70%] Built target systemcmds__pwm
+[35m[1mScanning dependencies of target systemcmds__tests__hrt_test[0m
+[35m[1mScanning dependencies of target systemcmds__topic_listener[0m
+[ 70%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_atomic_bitset.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/systemcmds/tests/hrt_test/CMakeFiles/systemcmds__tests__hrt_test.dir/hrt_test_main.cpp.o[0m
+[ 70%] Built target systemcmds__shutdown
+[ 70%] [32mBuilding CXX object src/systemcmds/topic_listener/CMakeFiles/systemcmds__topic_listener.dir/listener_main.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/systemcmds/tests/hrt_test/CMakeFiles/systemcmds__tests__hrt_test.dir/hrt_test_start.cpp.o[0m
+[ 70%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__system_time.a[0m
+[ 70%] Built target modules__local_position_estimator
+[ 70%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_bezierQuad.cpp.o[0m
+[35m[1mScanning dependencies of target systemcmds__tune_control[0m
+[ 70%] Built target systemcmds__system_time
+[35m[1mScanning dependencies of target systemcmds__uorb[0m
+[ 70%] [32mBuilding CXX object src/systemcmds/tests/hrt_test/CMakeFiles/systemcmds__tests__hrt_test.dir/hrt_test.cpp.o[0m
+[35m[1mScanning dependencies of target systemcmds__ver[0m
+[ 70%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers__vmount.a[0m
+[ 70%] [32mBuilding CXX object src/systemcmds/uorb/CMakeFiles/systemcmds__uorb.dir/uorb.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/systemcmds/tune_control/CMakeFiles/systemcmds__tune_control.dir/tune_control.cpp.o[0m
+[ 70%] [32mBuilding C object src/systemcmds/ver/CMakeFiles/systemcmds__ver.dir/ver.c.o[0m
+[35m[1mScanning dependencies of target systemcmds__work_queue[0m
+[ 71%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__topic_listener.a[0m
+[ 71%] Built target drivers__vmount
+[ 71%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__temperature_compensation.a[0m
+[ 71%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_bitset.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/systemcmds/work_queue/CMakeFiles/systemcmds__work_queue.dir/work_queue_main.cpp.o[0m
+[35m[1mScanning dependencies of target modules__fake_gps[0m
+[ 71%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__tests__hrt_test.a[0m
+[ 71%] [32mBuilding CXX object src/examples/fake_gps/CMakeFiles/modules__fake_gps.dir/FakeGps.cpp.o[0m
+[ 71%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__uorb.a[0m
+[ 71%] Built target modules__temperature_compensation
+[ 71%] Built target systemcmds__topic_listener
+[35m[1mScanning dependencies of target examples__fixedwing_control[0m
+[ 71%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__tune_control.a[0m
+[35m[1mScanning dependencies of target examples__hello[0m
+[ 71%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__ver.a[0m
+[ 71%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__work_queue.a[0m
+[ 71%] Built target systemcmds__tests__hrt_test
+[ 72%] [32mBuilding CXX object src/examples/fixedwing_control/CMakeFiles/examples__fixedwing_control.dir/main.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/examples/hello/CMakeFiles/examples__hello.dir/hello_main.cpp.o[0m
+[ 72%] Built target systemcmds__uorb
+[ 73%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_bson.cpp.o[0m
+[ 73%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_dataman.c.o[0m
+[35m[1mScanning dependencies of target examples__px4_mavlink_debug[0m
+[ 73%] Built target systemcmds__tune_control
+[ 73%] Built target systemcmds__ver
+[ 73%] [32mBuilding CXX object src/examples/px4_mavlink_debug/CMakeFiles/examples__px4_mavlink_debug.dir/px4_mavlink_debug.cpp.o[0m
+[35m[1mScanning dependencies of target examples__rover_steering_control[0m
+[ 73%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__vtol_att_control.a[0m
+[35m[1mScanning dependencies of target examples__px4_simple_app[0m
+[ 73%] Built target systemcmds__work_queue
+[ 73%] [32mBuilding CXX object src/examples/rover_steering_control/CMakeFiles/examples__rover_steering_control.dir/main.cpp.o[0m
+[35m[1mScanning dependencies of target examples__uuv_example_app[0m
+[ 73%] [32mBuilding C object src/examples/px4_simple_app/CMakeFiles/examples__px4_simple_app.dir/px4_simple_app.c.o[0m
+[35m[1mScanning dependencies of target examples__work_item[0m
+[ 73%] [32mBuilding CXX object src/examples/hello/CMakeFiles/examples__hello.dir/hello_start.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/examples/uuv_example_app/CMakeFiles/examples__uuv_example_app.dir/uuv_example_app.cpp.o[0m
+[ 73%] Built target modules__vtol_att_control
+[ 73%] [32mBuilding CXX object src/examples/work_item/CMakeFiles/examples__work_item.dir/WorkItemExample.cpp.o[0m
+[ 73%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_file2.c.o[0m
+[ 73%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_file.c.o[0m
+[ 73%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libexamples__px4_mavlink_debug.a[0m
+[ 75%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libexamples__px4_simple_app.a[0m
+[ 75%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_float.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/examples/hello/CMakeFiles/examples__hello.dir/hello_example.cpp.o[0m
+[ 75%] Built target examples__px4_mavlink_debug
+[ 75%] Built target examples__px4_simple_app
+[35m[1mScanning dependencies of target avoidance[0m
+[ 75%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_hott_telemetry.c.o[0m
+[ 75%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_hrt.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/lib/avoidance/CMakeFiles/avoidance.dir/ObstacleAvoidance.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_int.cpp.o[0m
+[ 75%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libexamples__uuv_example_app.a[0m
+[ 75%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_i2c_spi_cli.cpp.o[0m
+[ 75%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libexamples__hello.a[0m
+[ 76%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_IntrusiveQueue.cpp.o[0m
+[ 76%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_led.c.o[0m
+[ 76%] Built target examples__uuv_example_app
+[ 76%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_List.cpp.o[0m
+[ 76%] Built target examples__hello
+[ 76%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_IntrusiveSortedList.cpp.o[0m
+[35m[1mScanning dependencies of target lib__cdev__test__cdev_test[0m
+[ 76%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_mathlib.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_matrix.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/lib/cdev/test/CMakeFiles/lib__cdev__test__cdev_test.dir/cdevtest_example.cpp.o[0m
+[ 76%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__fake_gps.a[0m
+[ 76%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libexamples__fixedwing_control.a[0m
+[ 76%] Built target modules__fake_gps
+[ 76%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libexamples__rover_steering_control.a[0m
+[ 76%] [32mBuilding CXX object src/lib/cdev/test/CMakeFiles/lib__cdev__test__cdev_test.dir/cdevtest_main.cpp.o[0m
+[ 76%] Built target examples__fixedwing_control
+[35m[1mScanning dependencies of target lib__controllib__controllib_test[0m
+[ 76%] [32mBuilding CXX object src/lib/controllib/controllib_test/CMakeFiles/lib__controllib__controllib_test.dir/controllib_test_main.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/lib/cdev/test/CMakeFiles/lib__cdev__test__cdev_test.dir/cdevtest_start.cpp.o[0m
+[ 77%] Built target examples__rover_steering_control
+[35m[1mScanning dependencies of target drivers_accelerometer[0m
+[35m[1mScanning dependencies of target drivers_gyroscope[0m
+[ 77%] [32mBuilding CXX object src/lib/drivers/accelerometer/CMakeFiles/drivers_accelerometer.dir/PX4Accelerometer.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_mixer.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/lib/drivers/gyroscope/CMakeFiles/drivers_gyroscope.dir/PX4Gyroscope.cpp.o[0m
+[35m[1mScanning dependencies of target drivers_magnetometer[0m
+[35m[1mScanning dependencies of target drivers__pwm_out_sim[0m
+[ 77%] [32mBuilding CXX object src/lib/drivers/magnetometer/CMakeFiles/drivers_magnetometer.dir/PX4Magnetometer.cpp.o[0m
+[ 77%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/liblib__cdev__test__cdev_test.a[0m
+[ 77%] [32mBuilding CXX object src/drivers/pwm_out_sim/CMakeFiles/drivers__pwm_out_sim.dir/PWMSim.cpp.o[0m
+[ 77%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_param.c.o[0m
+[ 77%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libexamples__work_item.a[0m
+[ 77%] Built target lib__cdev__test__cdev_test
+[ 77%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_parameters.cpp.o[0m
+[ 77%] Built target examples__work_item
+[35m[1mScanning dependencies of target drivers__tone_alarm[0m
+[ 78%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_perf.c.o[0m
+[ 78%] [32mBuilding CXX object src/drivers/tone_alarm/CMakeFiles/drivers__tone_alarm.dir/ToneAlarm.cpp.o[0m
+[ 78%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libavoidance.a[0m
+[ 78%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers_magnetometer.a[0m
+[ 78%] Built target avoidance
+[ 78%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_ppm.cpp.o[0m
+[ 78%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers_accelerometer.a[0m
+[35m[1mScanning dependencies of target PreFlightCheck[0m
+[ 78%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_ppm_loopback.c.o[0m
+[ 78%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers_gyroscope.a[0m
+[ 78%] Built target drivers_magnetometer
+[ 78%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_rc.c.o[0m
+[ 78%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/PreFlightCheck.cpp.o[0m
+[ 78%] Built target drivers_accelerometer
+[35m[1mScanning dependencies of target ActuatorEffectiveness[0m
+[ 78%] Built target drivers_gyroscope
+[ 79%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/preArmCheck.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/control_allocator/ActuatorEffectiveness/CMakeFiles/ActuatorEffectiveness.dir/ActuatorEffectivenessMultirotor.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/magnetometerCheck.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/magConsistencyCheck.cpp.o[0m
+[ 79%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/liblib__controllib__controllib_test.a[0m
+[ 79%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_search_min.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/accelerometerCheck.cpp.o[0m
+[ 79%] Built target lib__controllib__controllib_test
+[35m[1mScanning dependencies of target modules__ekf2[0m
+[ 79%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/gyroCheck.cpp.o[0m
+[ 79%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_sleep.c.o[0m
+[ 79%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_uart_baudchange.c.o[0m
+[ 79%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers__pwm_out_sim.a[0m
+[ 79%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/airspeed_fusion.cpp.o[0m
+[ 79%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_uart_console.c.o[0m
+[ 79%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libdrivers__tone_alarm.a[0m
+[35m[1mScanning dependencies of target FlightTaskUtility[0m
+[ 79%] Built target drivers__tone_alarm
+[35m[1mScanning dependencies of target FlightTaskDescend[0m
+[35m[1mScanning dependencies of target modules__fw_pos_control_l1[0m
+[ 79%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/baroCheck.cpp.o[0m
+[35m[1mScanning dependencies of target FlightTaskFailsafe[0m
+[ 79%] Built target drivers__pwm_out_sim
+[ 79%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/baro_bias_estimator.cpp.o[0m
+[35m[1mScanning dependencies of target modules__mavlink[0m
+[ 79%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/Descend/CMakeFiles/FlightTaskDescend.dir/FlightTaskDescend.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/Utility/CMakeFiles/FlightTaskUtility.dir/StraightLine.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/fw_pos_control_l1/CMakeFiles/modules__fw_pos_control_l1.dir/FixedwingPositionControl.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/Failsafe/CMakeFiles/FlightTaskFailsafe.dir/FlightTaskFailsafe.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/control.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/imuConsistencyCheck.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/Utility/CMakeFiles/FlightTaskUtility.dir/Sticks.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/covariance.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/control_allocator/ActuatorEffectiveness/CMakeFiles/ActuatorEffectiveness.dir/ActuatorEffectivenessStandardVTOL.cpp.o[0m
+[ 79%] [32mBuilding C object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink.c.o[0m
+[ 79%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/airspeedCheck.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/control_allocator/ActuatorEffectiveness/CMakeFiles/ActuatorEffectiveness.dir/ActuatorEffectivenessTiltrotorVTOL.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/Utility/CMakeFiles/FlightTaskUtility.dir/StickAccelerationXY.cpp.o[0m
+[ 80%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskDescend.a[0m
+[ 80%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_command_sender.cpp.o[0m
+[35m[1mScanning dependencies of target modules__mc_att_control[0m
+[ 81%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskFailsafe.a[0m
+[ 81%] [32mBuilding CXX object src/modules/mc_att_control/CMakeFiles/modules__mc_att_control.dir/mc_att_control_main.cpp.o[0m
+[ 81%] Built target FlightTaskDescend
+[ 81%] Built target FlightTaskFailsafe
+[ 81%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_events.cpp.o[0m
+[ 81%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_uart_loopback.c.o[0m
+[ 81%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libActuatorEffectiveness.a[0m
+[ 81%] Built target ActuatorEffectiveness
+[ 82%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_uart_send.c.o[0m
+[ 82%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_ftp.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/Utility/CMakeFiles/FlightTaskUtility.dir/StickYaw.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/rcCalibrationCheck.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_log_handler.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/powerCheck.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/airframeCheck.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/ekf2Check.cpp.o[0m
+[ 84%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskUtility.a[0m
+[ 84%] Built target FlightTaskUtility
+[ 84%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/drag_fusion.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/ekf.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/ekf_helper.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/failureDetectorCheck.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_versioning.cpp.o[0m
+[ 85%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__mc_att_control.a[0m
+[ 85%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/manualControlCheck.cpp.o[0m
+[ 85%] Built target modules__mc_att_control
+[ 85%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/cpuResourceCheck.cpp.o[0m
+[ 85%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/test_cli.c.o[0m
+[ 85%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/EKFGSF_yaw.cpp.o[0m
+[ 85%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__fw_pos_control_l1.a[0m
+[ 85%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/estimator_interface.cpp.o[0m
+[ 85%] [32mBuilding C object src/systemcmds/tests/CMakeFiles/systemcmds__tests.dir/tests_main.c.o[0m
+[ 85%] Built target modules__fw_pos_control_l1
+[ 85%] [32mBuilding CXX object src/modules/commander/Arming/PreFlightCheck/CMakeFiles/PreFlightCheck.dir/checks/sdcardCheck.cpp.o[0m
+[35m[1mScanning dependencies of target modules__mc_hover_thrust_estimator[0m
+[ 85%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libsystemcmds__tests.a[0m
+[ 85%] [32mBuilding CXX object src/modules/mc_hover_thrust_estimator/CMakeFiles/modules__mc_hover_thrust_estimator.dir/MulticopterHoverThrustEstimator.cpp.o[0m
+[35m[1mScanning dependencies of target modules__mc_pos_control[0m
+[ 85%] [32mBuilding CXX object src/modules/mc_pos_control/CMakeFiles/modules__mc_pos_control.dir/MulticopterPositionControl.cpp.o[0m
+[ 85%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libPreFlightCheck.a[0m
+[35m[1mScanning dependencies of target modules__mc_rate_control[0m
+[ 85%] Built target systemcmds__tests
+[35m[1mScanning dependencies of target modules__navigator[0m
+[ 85%] [32mBuilding CXX object src/modules/mc_rate_control/CMakeFiles/modules__mc_rate_control.dir/MulticopterRateControl.cpp.o[0m
+[ 85%] Built target PreFlightCheck
+[ 85%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_main.cpp.o[0m
+[35m[1mScanning dependencies of target modules__sensors[0m
+[ 85%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/gps_checks.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/navigator_main.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/modules/sensors/CMakeFiles/modules__sensors.dir/voted_sensors_update.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/gps_control.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_messages.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/gps_fusion.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/gps_yaw_fusion.cpp.o[0m
+[35m[1mScanning dependencies of target modules__simulator[0m
+[ 85%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__mc_hover_thrust_estimator.a[0m
+[ 86%] [32mBuilding CXX object src/modules/simulator/CMakeFiles/modules__simulator.dir/simulator.cpp.o[0m
+[35m[1mScanning dependencies of target modules__fake_imu[0m
+[ 86%] [32mBuilding CXX object src/examples/fake_imu/CMakeFiles/modules__fake_imu.dir/FakeImu.cpp.o[0m
+[ 86%] Built target modules__mc_hover_thrust_estimator
+[35m[1mScanning dependencies of target examples__fake_magnetometer[0m
+[ 86%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/imu_down_sampler.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/examples/fake_magnetometer/CMakeFiles/examples__fake_magnetometer.dir/FakeMagnetometer.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/mag_control.cpp.o[0m
+[ 88%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__mc_rate_control.a[0m
+[ 89%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__mc_pos_control.a[0m
+[ 89%] [32mBuilding CXX object src/modules/simulator/CMakeFiles/modules__simulator.dir/simulator_mavlink.cpp.o[0m
+[ 89%] Built target modules__mc_rate_control
+[ 89%] [32mBuilding CXX object src/modules/sensors/CMakeFiles/modules__sensors.dir/sensors.cpp.o[0m
+[35m[1mScanning dependencies of target modules__commander[0m
+[ 89%] Built target modules__mc_pos_control
+[35m[1mScanning dependencies of target modules__control_allocator[0m
+[ 89%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/accelerometer_calibration.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_mission.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/modules/control_allocator/CMakeFiles/modules__control_allocator.dir/ControlAllocator.cpp.o[0m
+[ 91%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__fake_imu.a[0m
+[ 91%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/mag_fusion.cpp.o[0m
+[ 91%] Built target modules__fake_imu
+[ 92%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/airspeed_calibration.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/navigator_mode.cpp.o[0m
+[ 92%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libexamples__fake_magnetometer.a[0m
+[ 92%] Built target examples__fake_magnetometer
+[35m[1mScanning dependencies of target FlightTaskAuto[0m
+[ 92%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/calibration_routines.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/Auto/CMakeFiles/FlightTaskAuto.dir/FlightTaskAuto.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/mission_block.cpp.o[0m
+[ 93%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__sensors.a[0m
+[ 93%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/optflow_fusion.cpp.o[0m
+[ 93%] Built target modules__sensors
+[ 93%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/mission.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/Commander.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/commander_helper.cpp.o[0m
+[ 93%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__control_allocator.a[0m
+[ 93%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/esc_calibration.cpp.o[0m
+[ 93%] Built target modules__control_allocator
+[ 93%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/factory_calibration_storage.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/loiter.cpp.o[0m
+[ 93%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskAuto.a[0m
+[ 93%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_parameters.cpp.o[0m
+[ 93%] Built target FlightTaskAuto
+[ 93%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/rtl.cpp.o[0m
+[35m[1mScanning dependencies of target FlightTaskManualAltitude[0m
+[ 93%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/sensor_range_finder.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/ManualAltitude/CMakeFiles/FlightTaskManualAltitude.dir/FlightTaskManualAltitude.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/sideslip_fusion.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/gyro_calibration.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/takeoff.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/land.cpp.o[0m
+[ 94%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__simulator.a[0m
+[ 94%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/terrain_estimator.cpp.o[0m
+[ 94%] Built target modules__simulator
+[35m[1mScanning dependencies of target FlightTaskTransition[0m
+[ 94%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/precland.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/Transition/CMakeFiles/FlightTaskTransition.dir/FlightTaskTransition.cpp.o[0m
+[ 94%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskManualAltitude.a[0m
+[ 94%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/utils.cpp.o[0m
+[ 94%] Built target FlightTaskManualAltitude
+[35m[1mScanning dependencies of target FlightTaskAutoFollowMe[0m
+[ 94%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/level_calibration.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/AutoFollowMe/CMakeFiles/FlightTaskAutoFollowMe.dir/FlightTaskAutoFollowMe.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/lm_fit.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/mag_calibration.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/mission_feasibility_checker.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF/vel_pos_fusion.cpp.o[0m
+[ 95%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskTransition.a[0m
+[ 95%] Built target FlightTaskTransition
+[35m[1mScanning dependencies of target FlightTaskAutoLineSmoothVel[0m
+[ 95%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/AutoLineSmoothVel/CMakeFiles/FlightTaskAutoLineSmoothVel.dir/FlightTaskAutoLineSmoothVel.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/geofence.cpp.o[0m
+[ 95%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskAutoFollowMe.a[0m
+[ 95%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/rc_calibration.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF2.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/state_machine_helper.cpp.o[0m
+[ 95%] Built target FlightTaskAutoFollowMe
+[35m[1mScanning dependencies of target FlightTaskManualAltitudeSmoothVel[0m
+[ 95%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/ManualAltitudeSmoothVel/CMakeFiles/FlightTaskManualAltitudeSmoothVel.dir/FlightTaskManualAltitudeSmoothVel.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_rate_limiter.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_receiver.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/modules/commander/CMakeFiles/modules__commander.dir/worker_thread.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_shell.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_simple_analyzer.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/modules/ekf2/CMakeFiles/modules__ekf2.dir/EKF2Selector.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/enginefailure.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/modules/navigator/CMakeFiles/modules__navigator.dir/follow_target.cpp.o[0m
+[35m[1mScanning dependencies of target FlightTaskManualPosition[0m
+[ 97%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_stream.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_timesync.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/ManualPosition/CMakeFiles/FlightTaskManualPosition.dir/FlightTaskManualPosition.cpp.o[0m
+[ 97%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskManualAltitudeSmoothVel.a[0m
+[ 97%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/mavlink_ulog.cpp.o[0m
+[ 97%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__commander.a[0m
+[ 97%] Built target FlightTaskManualAltitudeSmoothVel
+[ 97%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskAutoLineSmoothVel.a[0m
+[35m[1mScanning dependencies of target FlightTaskManualAcceleration[0m
+[ 97%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/ManualAcceleration/CMakeFiles/FlightTaskManualAcceleration.dir/FlightTaskManualAcceleration.cpp.o[0m
+[ 97%] Built target modules__commander
+[ 97%] Built target FlightTaskAutoLineSmoothVel
+[ 97%] [32mBuilding CXX object src/modules/mavlink/CMakeFiles/modules__mavlink.dir/tune_publisher.cpp.o[0m
+[35m[1mScanning dependencies of target FlightTaskOrbit[0m
+[ 97%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/Orbit/CMakeFiles/FlightTaskOrbit.dir/FlightTaskOrbit.cpp.o[0m
+[ 97%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__navigator.a[0m
+[ 97%] Built target modules__navigator
+[ 97%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskManualPosition.a[0m
+[ 97%] Built target FlightTaskManualPosition
+[35m[1mScanning dependencies of target FlightTaskManualPositionSmoothVel[0m
+[ 97%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskManualAcceleration.a[0m
+[ 98%] [32mBuilding CXX object src/modules/flight_mode_manager/tasks/ManualPositionSmoothVel/CMakeFiles/FlightTaskManualPositionSmoothVel.dir/FlightTaskManualPositionSmoothVel.cpp.o[0m
+[ 98%] Built target FlightTaskManualAcceleration
+[ 98%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskOrbit.a[0m
+[ 98%] Built target FlightTaskOrbit
+[ 98%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libFlightTaskManualPositionSmoothVel.a[0m
+[ 98%] Built target FlightTaskManualPositionSmoothVel
+[35m[1mScanning dependencies of target modules__flight_mode_manager[0m
+[ 98%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__ekf2.a[0m
+[ 98%] [32mBuilding CXX object src/modules/flight_mode_manager/CMakeFiles/modules__flight_mode_manager.dir/FlightTasks_generated.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/modules/flight_mode_manager/CMakeFiles/modules__flight_mode_manager.dir/FlightModeManager.cpp.o[0m
+[ 98%] Built target modules__ekf2
+[ 98%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__flight_mode_manager.a[0m
+[ 98%] Built target modules__flight_mode_manager
+[ 98%] [32m[1mLinking CXX static library /home/umang/drone_ws/devel/.private/px4/lib/libmodules__mavlink.a[0m
+[ 98%] Built target modules__mavlink
+[35m[1mScanning dependencies of target px4[0m
+[ 98%] [32mBuilding CXX object platforms/posix/CMakeFiles/px4.dir/apps.cpp.o[0m
+[100%] [32mBuilding CXX object platforms/posix/CMakeFiles/px4.dir/src/px4/common/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/umang/drone_ws/devel/.private/px4/lib/px4/px4[0m
+[100%] Built target px4
+[35m[1mScanning dependencies of target examples__dyn_hello[0m
+[100%] [32mBuilding CXX object src/examples/dyn_hello/CMakeFiles/examples__dyn_hello.dir/hello.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/umang/drone_ws/devel/.private/px4/lib/examples__dyn_hello.px4mod[0m
+[100%] Built target examples__dyn_hello

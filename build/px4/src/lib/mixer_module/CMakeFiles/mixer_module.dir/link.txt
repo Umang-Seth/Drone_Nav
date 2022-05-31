@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/umang/drone_ws/devel/.private/px4/lib/libmixer_module.a  CMakeFiles/mixer_module.dir/mixer_module.cpp.o CMakeFiles/mixer_module.dir/functions.cpp.o
+/usr/bin/ranlib /home/umang/drone_ws/devel/.private/px4/lib/libmixer_module.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/umang/drone_ws/devel/.private/px4/lib/libmodule__manual_control.a  CMakeFiles/module__manual_control.dir/ManualControl.cpp.o CMakeFiles/module__manual_control.dir/ManualControlSelector.cpp.o
+/usr/bin/ranlib /home/umang/drone_ws/devel/.private/px4/lib/libmodule__manual_control.a

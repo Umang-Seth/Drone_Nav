@@ -1,0 +1,5 @@
+Symlinking /home/umang/drone_ws/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+Symlinking /home/umang/drone_ws/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
+Symlinking /home/umang/drone_ws/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+Symlinking /home/umang/drone_ws/devel/lib/libmavconn.so
+Symlinking /home/umang/drone_ws/devel/lib/pkgconfig/libmavconn.pc

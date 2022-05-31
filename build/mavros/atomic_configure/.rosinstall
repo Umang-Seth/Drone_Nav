@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/umang/drone_ws/devel/.private/mavros/setup.sh
